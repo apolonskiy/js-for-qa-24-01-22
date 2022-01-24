@@ -1,5 +1,6 @@
 // Declaring
 let message;
+const message1 ='test';
 
 // Delayed declaring;
 let message2;
@@ -7,8 +8,8 @@ message2 = 'Hi'; //store the string
 
 // Not recommended
 let car = 'BMW'; 
-    engine = 'V8'; 
-    model = '220';
+ engine = 'V8'; 
+ model = '220';
 
 // Accessing variable;
 let message3;
