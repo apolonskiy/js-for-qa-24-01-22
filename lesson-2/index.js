@@ -185,16 +185,15 @@
 //     console.log(i);
 // }
 
-let i = 0;
-while (i < 3) {  // (condition)
-    console.log(i);
-    i++;
-    // do not forget increment variable
-}
+// let i = 0;
+// while (i < 0) {  // (condition)
+//     console.log(i);
+//     i++;
+//     // do not forget increment variable
+// }
 
-let j = 0;
-do {
-    console.log(j);
-    j++;
-    console.log(j);
-} while (j < 3);
+// let j = 0;
+// do {
+//     console.log(j);
+//     j++;
+// } while (j < 0);

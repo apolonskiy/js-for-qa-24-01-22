@@ -1,0 +1,11 @@
+{
+    "extends": ["plugin:jest/recommended", "plugin:jest/style"],
+      "parser": "@babel/eslint-parser",
+      "parserOptions": {
+        "requireConfigFile": false
+      },
+      "rules": {
+        "indent": ["error", 2]
+      }
+
+}

@@ -1,9 +1,17 @@
-const marvel = (hero) => {
+export const marvel = (hero) => {
     console.log(`Hello, ${hero}!`);
   }
+
+export class ABC {
   
-const dc = (hero) => {
-  console.log(`Bye, ${hero}!`);
 }
   
-export {marvel, dc};
+export const dc = (hero) => {
+  console.log(`Bye, ${hero}!`);
+}
+
+const defaultFunc = () => 'Im Default';
+
+export default defaultFunc;
+
+// export {marvel, dc};

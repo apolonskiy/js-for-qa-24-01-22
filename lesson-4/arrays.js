@@ -94,7 +94,7 @@ console.log(fruits.length); // 3
 
 // Do not be confused with length\index!
 console.log(fruits[2]); // "c"
-console.log(fruits[fruits.length] - 1); // 'c'
+console.log(fruits[fruits.length - 1] ); // 'c'
 
 // UNSAFE!
 // You can modify value of length:

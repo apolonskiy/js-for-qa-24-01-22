@@ -1,10 +1,7 @@
 1. Create object "post" which should contain
-title
-body
-author
-views
+title: string
 comment which contain information about the authot first and last name and comment body
-isLive
+isLive : boolean
 someFunction: result of calling console.log()
 
 const post = {

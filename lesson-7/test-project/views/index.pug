@@ -1,0 +1,15 @@
+html
+  head
+  body
+    h1= 'Please specify from and to query parameters, like from = BTC and to = USD'
+    body
+      form(action='/', method='GET')
+        p | from:
+          input(type='text', name='from', value='')
+        p | to:
+          input(type='text', name='to', value='')
+        input(type='submit', value='Submit')
+
+      h2= message
+      h3= messageValue
+      

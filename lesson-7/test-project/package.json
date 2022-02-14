@@ -1,0 +1,29 @@
+{
+  "name": "test-project",
+  "version": "1.0.0",
+  "description": "\"Test Crypto Project\"",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "start:watch": "nodemon crypto.js",
+    "lint": "eslint . --ext .js",
+    "lint:fix": "npm run lint -- --fix"
+  },
+  "keywords": [
+    "\"express\""
+  ],
+  "author": "\"Andrii\"",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "express": "^4.17.1",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.5.4",
+    "eslint": "^8.9.0",
+    "eslint-plugin-jest": "^26.1.0",
+    "jest": "^27.5.1"
+  }
+}
