@@ -25,7 +25,7 @@ test.meta({
     await t.expect(Selector('div[id="slider"] span').getAttribute('style')).eql('left: 44.4444%;');
 })
 
-test.only('Verify select options', async () => {
+test('Verify select options', async () => {
     const getSelectedText = async (
         element,
         subSelector  = 'option'
